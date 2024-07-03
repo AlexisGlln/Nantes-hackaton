@@ -7,12 +7,17 @@ import AnnonceGrossesse from "./pages/AnnonceGrossesse";
 import LeRetour from "./pages/LeRetour";
 import LeAvant from "./pages/LeAvant";
 import LeCongéMaternité from "./pages/LeCongéMaternité";
+import Accueil from "./pages/Accueil";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
     children: [
+      {
+        path: "/",
+        element: <Accueil />,
+      },
       {
         path: "/annonce-grossesse",
         element: <AnnonceGrossesse />,
