@@ -5,8 +5,8 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import App from './App';
 import AnnonceGrossesse from './pages/AnnonceGrossesse';
 import LeRetour from './pages/LeRetour';
-import RetourEntreprise from './pages/RetourEntreprise';
-import ParcourProfessionnel from './pages/ParcourProfessionnel';
+import LeAvant from './pages/LeAvant';
+import LeCongéMaternité from './pages/LeCongéMaternité';
 
 const router = createBrowserRouter([
   {
@@ -22,12 +22,12 @@ const router = createBrowserRouter([
     element: <LeRetour />,
   },
   {
-    path: "/retour-entreprise",
-    element: <RetourEntreprise />,
+    path: "/le-avant",
+    element: <LeAvant />,
   },
   {
-    path: "/parcour-professionnel",
-    element: <ParcourProfessionnel />,
+    path: "/le-congé-maternité",
+    element: <LeCongéMaternité />,
   },
 ]);
 
