@@ -54,31 +54,31 @@
   }
 }
 
-.navbar .annonce:hover {
-  background-color: #ff4500;
+.navbar .accueil:hover {
   transform: scale(1.1);
   transition: all 0.3s ease;
 }
 
-.navbar .retour:hover {
-  background-color: #5b5fff;
+.navbar .annonce:hover {
+  background-color: #d14100;
   transform: scale(1.1);
   transition: all 0.3s ease;
 }
 
 .navbar .avant:hover {
-  background-color: #ff8c00;
+  background-color: #4245ab;
   transform: scale(1.1);
   transition: all 0.3s ease;
 }
 
 .navbar .congé:hover {
-  background-color: #ff69b4;
+  background-color: #ae650a;
   transform: scale(1.1);
   transition: all 0.3s ease;
 }
 
-.navbar .accueil:hover {
+.navbar .retour:hover {
+  background-color: #61073c;
   transform: scale(1.1);
   transition: all 0.3s ease;
 }
