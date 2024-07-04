@@ -15,7 +15,7 @@
     display: flex;
     justify-content: center;
     font-size: 6vh;
-    color: #e74c3c; /* Couleur similaire à celle de l'exemple */
+    color: #4245AB; /* Couleur similaire à celle de l'exemple */
     margin-bottom: 20px;
   }
   
@@ -46,7 +46,7 @@
   
   h4 {
     font-size: 3vh;
-    color: #2980b9;
+    color: #4245AB;
     margin-top: 20px;
     margin-bottom: 10px;
   }
