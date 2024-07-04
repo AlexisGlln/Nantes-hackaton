@@ -1,10 +1,8 @@
-import React from 'react';
-import '../styles/Accueil.css';
+import React from "react";
+import "../styles/Accueil.css";
 
 const Accueil = () => {
-  return (
-    <div>Accueil</div>
-  )
-}
+  return <div>Accueil</div>;
+};
 
 export default Accueil;
