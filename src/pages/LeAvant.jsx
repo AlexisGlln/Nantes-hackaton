@@ -4,6 +4,7 @@ import graphpageleavant from "../assets/graphique/graphpageleavant.png";
 
 const LeAvant = () => {
   return (
+    <div className="body-le-avant">
     <div className="avant-container">
       <h2 className="title-avant">Le Avant</h2>
       <h3 className="you-are-not-alone">Vous n’êtes pas seul !</h3>
@@ -30,6 +31,7 @@ const LeAvant = () => {
         Sensibiliser l’entreprise à accompagner l’absence de la jeune mère
         (informer, etc.)
       </p>
+    </div>
     </div>
   );
 };
