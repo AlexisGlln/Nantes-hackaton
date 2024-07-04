@@ -1,10 +1,8 @@
-import React from 'react';
-import '../styles/AnnonceGrossesse.css';
+import React from "react";
+import "../styles/AnnonceGrossesse.css";
 
 const AnnonceGrossesse = () => {
-  return (
-    <div>AnnonceGrossesse</div>
-  )
-}
+  return <h1 className="titre-annonce-grossesse">L'annonce de la grossesse</h1>;
+};
 
 export default AnnonceGrossesse;
