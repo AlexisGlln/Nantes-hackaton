@@ -11,14 +11,14 @@ const NavBar = () => {
       <NavLink className="annonce" to="/annonce-grossesse">
         Annonce de la grossesse
       </NavLink>
-      <NavLink className="retour" to="/le-retour">
-        Le retour de grossesse
-      </NavLink>
       <NavLink className="avant" to="/le-avant">
-        Avant l'annonce
+        Début de la grossesse
       </NavLink>
       <NavLink className="congé" to="/le-congé-maternité">
-        Le congé maternité
+        Congé maternité
+      </NavLink>
+      <NavLink className="retour" to="/le-retour">
+        Retour congé maternité
       </NavLink>
     </nav>
   );
