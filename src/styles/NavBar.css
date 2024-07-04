@@ -1,0 +1,84 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  /* margin-top: 2%; */
+  /* margin-left: 1%;
+  margin-right: 1%; */
+  /* border-style: outset; */
+  border-radius: 8px;
+  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+  /* background-color: rgba(255, 255, 255, 0.952); */
+  border-bottom: 2px solid black;
+
+  & a {
+    text-decoration: none;
+    color: black;
+    font-size: x-large;
+    margin: 1%;
+  }
+
+  & .accueil {
+    border-radius: 16px;
+    padding: 1%;
+    font-weight: 600;
+  }
+
+  & .annonce {
+    /* background-color: #d14100; */
+    border-radius: 16px;
+    padding: 1%;
+    font-weight: 600;
+    /* color: #d14100; */
+    font-weight: 600;
+  }
+
+  & .retour {
+    /* background-color: #4245ab; */
+    border-radius: 16px;
+    padding: 1%;
+    font-weight: 600;
+  }
+
+  & .avant {
+    /* background-color: #ae650a; */
+    border-radius: 16px;
+    padding: 1%;
+    font-weight: 600;
+  }
+
+  & .congé {
+    /* background-color: #af5a8c; */
+    border-radius: 16px;
+    padding: 1%;
+    font-weight: 600;
+  }
+}
+
+.navbar .annonce:hover {
+  background-color: #ff4500;
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+}
+
+.navbar .retour:hover {
+  background-color: #5b5fff;
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+}
+
+.navbar .avant:hover {
+  background-color: #ff8c00;
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+}
+
+.navbar .congé:hover {
+  background-color: #ff69b4;
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+}
+
+.navbar .accueil:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+}
