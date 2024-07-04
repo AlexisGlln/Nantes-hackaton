@@ -17,7 +17,7 @@
     margin: 1%;
   }
 
-  & .accueil {
+  & .nav-accueil {
     border-radius: 16px;
     padding: 1%;
     font-weight: 600;
@@ -54,7 +54,8 @@
   }
 }
 
-.navbar .accueil:hover {
+.navbar .nav-accueil:hover {
+  background-color: #f1f1fc;
   transform: scale(1.1);
   transition: all 0.3s ease;
 }
