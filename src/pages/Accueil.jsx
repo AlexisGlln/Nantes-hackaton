@@ -6,15 +6,15 @@ const Accueil = () => {
   return (
     <div className="accueil">
       <h1 className="titre">Bienvenue sur Moms@work</h1>
-
       <div className="bienvenue">
+      <div className="container-bienvenue">
         <h2>Votre Ressource Pour Une Maternité Épanouie au Travail</h2>
         <p>
           Nous sommes ravies de vous accueillir sur notre site dédié à toutes
-          les femmes qui naviguent dans le milieu professionnel tout en
-          préparant l’arrivée d’un enfant. Chez Moms@work, notre mission est de
-          vous accompagner, de répondre à vos questions et de vous offrir le
-          soutien nécessaire à chaque étape de votre parcours de maternité.
+          les femmes qui naviguent dans le milieu professionnel tout enpréparant
+          l’arrivée d’un enfant. Chez Moms@work, notre mission est devous
+          accompagner, de répondre à vos questions et de vous offrir lesoutien
+          nécessaire à chaque étape de votre parcours de maternité.
         </p>
         <p>
           Que vous soyez sur le point d’annoncer votre grossesse à votre
@@ -22,12 +22,13 @@ const Accueil = () => {
           planifier votre retour au travail, nous sommes là pour vous.
         </p>
       </div>
-      <div className="image-container">
-        <img
-          className="image1"
-          src="src/assets/illustrationfemmeenceinte.jpg"
-          alt="femme-enceinte"
-        />
+        <div className="image-container">
+          <img
+            className="image1"
+            src="src/assets/illustrationfemmeenceinte.jpg"
+            alt="femme-enceinte"
+          />
+        </div>
       </div>
       <div className="partie1">
         <h2>Nos Rubriques Principales :</h2>
@@ -64,51 +65,51 @@ const Accueil = () => {
             et des idées pour profiter pleinement de cette période précieuse.
           </p>
         </div>
-        <div className="partie2">
-          <NavLink to="/le-retour">
-            <h3>4. Le Retour</h3>
-          </NavLink>
+      </div>
+      <div className="partie2">
+        <NavLink to="/le-retour">
+          <h3>4. Le Retour</h3>
+        </NavLink>
+        <p>
+          Le retour au travail peut être une étape délicate. Nous vous aidons à
+          reprendre vos fonctions avec confiance, à gérer les nouvelles
+          responsabilités et à trouver un équilibre entre votre vie
+          professionnelle et votre vie de famille. Explorez nos conseils pour
+          une transition réussie et des témoignages inspirants de femmes qui ont
+          traversé cette étape.
+        </p>
+      </div>
+      <footer>
+        <div className="partie22">
+          <h3>Notre Engagement :</h3>
           <p>
-            Le retour au travail peut être une étape délicate. Nous vous aidons
-            à reprendre vos fonctions avec confiance, à gérer les nouvelles
-            responsabilités et à trouver un équilibre entre votre vie
-            professionnelle et votre vie de famille. Explorez nos conseils pour
-            une transition réussie et des témoignages inspirants de femmes qui
-            ont traversé cette étape.
+            Chez Moms@work, nous comprenons les défis uniques auxquels les
+            femmes enceintes peuvent être confrontées dans le milieu
+            professionnel. Nous sommes ici pour vous offrir des ressources
+            complètes, des conseils d'experts et un soutien communautaire. Notre
+            objectif est de vous aider à vivre une expérience de maternité
+            harmonieuse et à vous sentir valorisée et soutenue dans votre
+            carrière.
           </p>
         </div>
-        <footer>
-          <div className="partie22">
-            <h3>Notre Engagement :</h3>
-            <p>
-              Chez Moms@work, nous comprenons les défis uniques auxquels les
-              femmes enceintes peuvent être confrontées dans le milieu
-              professionnel. Nous sommes ici pour vous offrir des ressources
-              complètes, des conseils d'experts et un soutien communautaire.
-              Notre objectif est de vous aider à vivre une expérience de
-              maternité harmonieuse et à vous sentir valorisée et soutenue dans
-              votre carrière.
-            </p>
-          </div>
-          <div className="partie22">
-            <h3>Rejoignez Notre Communauté :</h3>
-            <p>
-              Inscrivez-vous à notre newsletter pour recevoir des mises à jour
-              régulières, des articles inspirants et des conseils pratiques.
-              Rejoignez notre forum pour échanger avec d'autres femmes qui
-              vivent des expériences similaires et trouvez un soutien mutuel.
-            </p>
-          </div>
-          <div className="partie22">
-            <h3>Contactez-Nous :</h3>
-            <p>
-              Si vous avez des questions ou besoin de conseils spécifiques,
-              n'hésitez pas à nous contacter. Nous sommes là pour vous aider à
-              chaque étape de votre maternité
-            </p>
-          </div>
-        </footer>
-      </div>
+        <div className="partie22">
+          <h3>Rejoignez Notre Communauté :</h3>
+          <p>
+            Inscrivez-vous à notre newsletter pour recevoir des mises à jour
+            régulières, des articles inspirants et des conseils pratiques.
+            Rejoignez notre forum pour échanger avec d'autres femmes qui vivent
+            des expériences similaires et trouvez un soutien mutuel.
+          </p>
+        </div>
+        <div className="partie22">
+          <h3>Contactez-Nous :</h3>
+          <p>
+            Si vous avez des questions ou besoin de conseils spécifiques,
+            n'hésitez pas à nous contacter. Nous sommes là pour vous aider à
+            chaque étape de votre maternité
+          </p>
+        </div>
+      </footer>
     </div>
   );
 };

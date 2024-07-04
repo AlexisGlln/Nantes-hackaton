@@ -1,6 +1,7 @@
 .accueil {
   background-color: #f1f1fc;
-  /* padding: 20px; */
+  padding: 40px;
+  width: 100vw;
 }
 
 .titre {
@@ -15,7 +16,6 @@
 }
 
 .image-container {
-  padding-top: 7%;
   width: 50%; /* Définit la largeur du conteneur d'image */
   height: 50%;
   display: flex;
@@ -29,8 +29,12 @@
 
 .bienvenue {
   width: 100%;
-  text-align: center;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
+
 
 footer {
   display: flex;
