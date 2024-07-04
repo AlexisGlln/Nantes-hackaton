@@ -1,22 +1,6 @@
-/* .title-avant {
-    display: flex;
-    justify-content: center;
-    font-size: 6vh;
+.body-le-avant {
+  background-color: #4245AB;
 }
-
-.you-are-not-alone {
-    display: flex;
-    justify-content: center;
-    font-size: 4vh;
-}
-
-.what-you-need-to-know {
-    display: flex;
-    justify-content: center;
-    font-size: 4vh;
-} */
-
-/* LeAvant.css */
 .avant-container {
     width: 80%;
     margin: 0 auto;
@@ -74,12 +58,7 @@
     padding-left: 20px;
     text-indent: -20px;
   }
-  
-  p::before {
-    content: "• ";
-    color: #2980b9;
-  }
-  
+
   @media (max-width: 768px) {
     .avant-container {
       width: 95%;
