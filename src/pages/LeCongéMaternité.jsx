@@ -10,13 +10,13 @@ const LeCongéMaternité = () => {
         <h3 className="you-are-not-alone">Vous n’êtes pas seul !</h3>
         <img src={graphpagelecongematernite} alt="graphiquecongematernite" />
         <h3 className="what-you-need-to-know">Ce qu’il faut savoir :</h3>
-        <h4>1. Respecter les modalités de contact :</h4>
+        <h4 className="mom">1. Respecter les modalités de contact :</h4>
         <p>
           Respecter les modalités préalablement décidées et consenties
           concernant le remplacement et le non-contact.
         </p>
-        <h4>2. Préparer le jour du retour :</h4>
-        a. Informer et sensibiliser toute l’entreprise au retour :
+        <h4 className="mom">2. Préparer le jour du retour :</h4>
+        <h3>a. Informer et sensibiliser toute l’entreprise au retour :</h3>
         <p>Annoncer la date et les conditions actuelles de retour</p>
         <p>
           Sensibiliser l’équipe sur l’état de la jeune mère : fatigue, choc,
@@ -30,13 +30,14 @@ const LeCongéMaternité = () => {
           Prévoir et préparer la reconnexion relationnelle : e-mail d’arrivée,
           déjeuner, échanges avec les pairs, etc.
         </p>
-        b. Préparer la réintégration :<p>Physique : bureau, outils, etc. </p>
+        <h3>b. Préparer la réintégration :</h3>
+        <p>Physique : bureau, outils, etc. </p>
         <p>Technique : numérique, codes, logiciels, tablette, etc.</p>
         <p>
           Commerciale et professionnelle : clients, dossiers, échanges
           professionnels, etc.
         </p>
-        <h4>Elles en parlent :</h4>
+        <h4 className="mom">Elles en parlent :</h4>
         <p>
           <strong>
             Témoignage - L'absence pour congé maternité n’est pas toujours
