@@ -1,4 +1,4 @@
-.fond-accueil {
-  background-color: #efeaf5;
-  height: 100vh;
+.accueil {
+  background: url("src/assets/illustrationfemmeenceinte.jpg");
+  opacity: 0.5;
 }
