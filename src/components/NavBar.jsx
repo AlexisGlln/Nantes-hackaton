@@ -5,7 +5,7 @@ import "../styles/NavBar.css";
 const NavBar = () => {
   return (
     <nav className="navbar">
-      <NavLink className="accueil" to="/">
+      <NavLink className="nav-accueil" to="/">
         Accueil
       </NavLink>
       <NavLink className="annonce" to="/annonce-grossesse">
