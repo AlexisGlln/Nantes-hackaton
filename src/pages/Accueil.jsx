@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/Accueil.css";
 import { NavLink } from "react-router-dom";
+import "../styles/Global.css";
 
 const Accueil = () => {
   return (
