@@ -1,4 +1,46 @@
 .accueil {
-  background: url("src/assets/illustrationfemmeenceinte.jpg");
-  opacity: 0.5;
+  background-color: #f1f1fc;
+  padding: 40px;
+  width: 100vw;
+}
+
+.titre {
+  text-align: center;
+  margin: 0;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.partie1 {
+  margin-bottom: 20px;
+}
+
+.image-container {
+  width: 50%; /* Définit la largeur du conteneur d'image */
+  height: 50%;
+  display: flex;
+  justify-content: flex-end; /* Place l'image à droite */
+}
+
+.image1 {
+  width: 80%; /* Ajuste la taille de l'image à l'intérieur du conteneur */
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); /* Ajoute une ombre à l'image */
+}
+
+.bienvenue {
+  width: 100%;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.partie22 {
+  flex: 1;
 }

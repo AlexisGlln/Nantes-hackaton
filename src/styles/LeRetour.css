@@ -1,94 +1,94 @@
 .body-le-retour {
-    background-color: #61073C;
+  background-color: #61073c;
+}
+
+.retour-container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  line-height: 1.6;
+}
+
+.title-retour {
+  display: flex;
+  justify-content: center;
+  font-size: 6vh;
+  color: #61073c; /* Couleur similaire à celle de l'exemple */
+  margin-bottom: 20px;
+}
+
+.what-you-need-to-know {
+  font-size: 2.5vh;
+}
+
+.you-are-not-alone {
+  display: flex;
+  justify-content: center;
+  font-size: 4vh;
+  color: #34495e;
+  margin-bottom: 20px;
+}
+
+.what-you-need-to-know {
+  display: flex;
+  justify-content: center;
+  font-size: 4vh;
+  color: #34495e;
+  margin-bottom: 20px;
+}
+
+.retour-container img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 20px auto;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+}
+
+.retour {
+  font-size: 3vh;
+  color: #61073c;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.text-retour {
+  font-size: 2.5vh;
+  color: #2c3e50;
+  margin: auto;
+  padding-left: 20px;
+  text-indent: 0;
+  margin-bottom: 3vh;
+}
+
+i {
+  font-size: 2.5vh;
+}
+
+@media (max-width: 768px) {
+  .avant-container {
+    width: 95%;
+    padding: 10px;
   }
 
-  .retour-container {
-      width: 80%;
-      margin: 0 auto;
-      padding: 20px;
-      background-color: #fff;
-      border-radius: 8px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      line-height: 1.6;
-    }
-    
-    .title-retour {
-      display: flex;
-      justify-content: center;
-      font-size: 6vh;
-      color: #61073C; /* Couleur similaire à celle de l'exemple */
-      margin-bottom: 20px;
-    }
-    
-    h3 {
-      font-size: 2.5vh;  
-    }
-    
-    .you-are-not-alone {
-      display: flex;
-      justify-content: center;
-      font-size: 4vh;
-      color: #34495e;
-      margin-bottom: 20px;
-    }
-    
-    .what-you-need-to-know {
-      display: flex;
-      justify-content: center;
-      font-size: 4vh;
-      color: #34495e;
-      margin-bottom: 20px;
-    }
-    
-    .retour-container img {
-      display: block;
-      max-width: 100%;
-      height: auto;
-      margin: 20px auto;
-      border: 2px solid #ddd;
-      border-radius: 8px;
-    }
-    
-    .retour {
-      font-size: 3vh;
-      color: #61073C;
-      margin-top: 20px;
-      margin-bottom: 10px;
-    }
-    
-    p {
-      font-size: 2.5vh;
-      color: #2c3e50;
-      margin: 10px 0;
-      padding-left: 20px;
-      text-indent: -20px;
-      margin-bottom: 3vh;
-    }
+  .title-avant {
+    font-size: 5vh;
+  }
 
-    i {
-        font-size: 2.5vh;
-    }
-  
-    @media (max-width: 768px) {
-      .avant-container {
-        width: 95%;
-        padding: 10px;
-      }
-    
-      .title-avant {
-        font-size: 5vh;
-      }
-    
-      .you-are-not-alone,
-      .what-you-need-to-know {
-        font-size: 3.5vh;
-      }
-    
-      h4 {
-        font-size: 2.5vh;
-      }
-    
-      p {
-        font-size: 2vh;
-      }
-    }
+  .you-are-not-alone,
+  .what-you-need-to-know {
+    font-size: 3.5vh;
+  }
+
+  .retour {
+    font-size: 2.5vh;
+  }
+
+  .text-retour {
+    font-size: 2vh;
+  }
+}
