@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/LeRetour.css';
 import graphpageleretour from '../assets/graphique/graphpageleretour.png';
+import "../styles/global.css"
 
 function LeRetour() {
   return (
@@ -15,7 +16,8 @@ function LeRetour() {
       maternité, la salariée retrouve son précédent emploi ou un emploi 
       similaire assorti d’une rémunération au moins équivalente</p>
     <h4 className='retour'>2. L’entretien de retour de congé maternité :  </h4>
-    <p>La salariée qui 
+    <p>
+    La salariée qui 
     reprend son activité à l’issue d’un congé de maternité a également 
     droit à l’entretien professionnel. Cet entretien est consacré à ses 
     perspectives d’évolution professionnelle.</p>
