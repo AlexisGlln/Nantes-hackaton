@@ -13,27 +13,27 @@ const AnnonceGrossesse = () => {
           alt="graphique-annonce-de-la-grossesse"
         />
         <h3 className="what-you-need-to-know">Ce qu’il faut savoir :</h3>
-        <p>
+        <p className="text-annonce">
           1. Une salariée enceinte n'a pas l'obligation d'informer son employeur
           de son état de grossesse. Si elle le souhaite, elle peut révéler à
           tout moment à son employeur son état de grossesse. Elle peut
           l'informer par écrit ou verbalement.
         </p>
 
-        <p>
+        <p className="text-annonce">
           2. Une salariée enceinte ou en congé de maternité est protégée contre
           le licenciement. Pendant le congé de maternité, l'employeur ne peut
           pas licencier la salariée. Sa protection contre le licenciement est
           absolue.
         </p>
 
-        <p>
+        <p className="text-annonce">
           3. Pendant sa grossesse, la salariée bénéficie d'autorisations
           d'absence pour se rendre aux examens médicaux obligatoires prévus par
           l'assurance maladie.
         </p>
 
-        <p>
+        <p className="text-annonce">
           4. La réduction de l'horaire journalier de travail pour une salariée
           enceinte n'est pas une obligation légale. Par contre, cette réduction
           d'horaires peut être prévue par la convention collective ou l'accord

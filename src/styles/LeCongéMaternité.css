@@ -1,89 +1,89 @@
 .body-le-cong-mate {
-    background-color: #AE650A;
-  }
-  .mom-container {
-      width: 80%;
-      margin: 0 auto;
-      padding: 20px;
-      background-color: #fff;
-      border-radius: 8px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      line-height: 1.6;
-    }
-    
-    .title-mom {
-      display: flex;
-      justify-content: center;
-      font-size: 6vh;
-      color: #AE650A; /* Couleur similaire à celle de l'exemple */
-      margin-bottom: 20px;
-    }
-    
-    .you-are-not-alone {
-      display: flex;
-      justify-content: center;
-      font-size: 4vh;
-      color: #34495e;
-      margin-bottom: 20px;
-    }
-    
-    .what-you-need-to-know {
-      display: flex;
-      justify-content: center;
-      font-size: 4vh;
-      color: #34495e;
-      margin-bottom: 20px;
-    }
-    
-    .mom-container img {
-      display: block;
-      max-width: 100%;
-      height: auto;
-      margin: 20px auto;
-      border: 2px solid #ddd;
-      border-radius: 8px;
-    }
-    
-    .mom {
-      font-size: 3vh;
-      color: #AE650A;
-      margin-top: 20px;
-      margin-bottom: 10px;
-    }
-    
-    p {
-      font-size: 2.5vh;
-      color: #2c3e50;
-      margin: 10px 0;
-      padding-left: 20px;
-      text-indent: -20px;
-      margin-bottom: 3vh;
-    }
+  background-color: #ae650a;
+}
+.mom-container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  line-height: 1.6;
+}
 
-    i {
-        font-size: 2.5vh;
-    }
-  
-    @media (max-width: 768px) {
-      .avant-container {
-        width: 95%;
-        padding: 10px;
-      }
-    
-      .title-avant {
-        font-size: 5vh;
-      }
-    
-      .you-are-not-alone,
-      .what-you-need-to-know {
-        font-size: 3.5vh;
-      }
-    
-      h4 {
-        font-size: 2.5vh;
-      }
-    
-      p {
-        font-size: 2vh;
-      }
-    }
+.title-mom {
+  display: flex;
+  justify-content: center;
+  font-size: 6vh;
+  color: #ae650a; /* Couleur similaire à celle de l'exemple */
+  margin-bottom: 20px;
+}
+
+.you-are-not-alone {
+  display: flex;
+  justify-content: center;
+  font-size: 4vh;
+  color: #34495e;
+  margin-bottom: 20px;
+}
+
+.what-you-need-to-know {
+  display: flex;
+  justify-content: center;
+  font-size: 4vh;
+  color: #34495e;
+  margin-bottom: 20px;
+}
+
+.mom-container img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 20px auto;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+}
+
+.mom {
+  font-size: 3vh;
+  color: #ae650a;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.text-le-congé-maternite {
+  font-size: 2.5vh;
+  color: #2c3e50;
+  margin: 10px 0;
+  padding-left: 20px;
+  text-indent: 0;
+  margin-bottom: 3vh;
+}
+
+i {
+  font-size: 2.5vh;
+}
+
+@media (max-width: 768px) {
+  .avant-container {
+    width: 95%;
+    padding: 10px;
+  }
+
+  .title-avant {
+    font-size: 5vh;
+  }
+
+  .you-are-not-alone,
+  .what-you-need-to-know {
+    font-size: 3.5vh;
+  }
+
+  h4 {
+    font-size: 2.5vh;
+  }
+
+  .text-le-congé-maternite {
+    font-size: 2vh;
+  }
+}
